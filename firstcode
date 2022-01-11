@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+class student
+{
+    public:
+    string name;
+    int id;
+    void printname();
+    void printid()
+    {
+        cout << "id is: "<<id;
+    }
+};
+void Geeks::printname()
+{
+    cout << "name is: "<<name;
+}
+int main() {
+    Geeks obj1;
+    obj1.geekname = "xyz";
+    obj1.id=15;
+    obj1.printname();
+    cout << endl;
+    obj1.printid();
+    return 0;
+}  
